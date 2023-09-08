@@ -1,0 +1,3 @@
+export const DARk_LORD = "https://www.pikpng.com/pngl/m/315-3150969_11-fine-leg-darth-vader-face-png-clipart.png";
+export const YODA = "https://mystickermania.com/cdn/stickers/star-wars/star-wars-grogu-looks-512x512.png"
+export const AKSHAY_IMG = "https://media.licdn.com/dms/image/D4D03AQH0SWWQK17eig/profile-displayphoto-shrink_800_800/0/1667360233872?e=1699488000&v=beta&t=8AbgjqpenpsMSz9pR9nBPcF65FXIDqycwoSvL5MpYic";
