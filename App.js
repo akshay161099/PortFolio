@@ -8,6 +8,8 @@ import Body from "./src/components/Body";
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 import Contact from "./src/components/Contact";
 import Projects from "./src/components/Projects";
+//The app is hosted at https://portfolio-akshay161099-556d2.web.app/
+
 const App = () =>{
     const [dark,setDark] = useState("false");
     

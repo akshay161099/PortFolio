@@ -3,9 +3,10 @@
   "homepage": "https://akshay161099.github.io/Portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "App.js",
+  
   "scripts": {
     "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Akshay",
@@ -13,6 +14,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "cheerio": "^1.0.0-rc.12",
+    "firebase": "^10.8.0",
     "node-fetch": "^3.3.2",
     "parcel": "^2.9.3",
     "react": "^18.2.0",
