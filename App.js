@@ -8,18 +8,21 @@ import Body from "./src/components/Body";
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 import Contact from "./src/components/Contact";
 import Projects from "./src/components/Projects";
+import { Provider } from "react-redux";
 //The app is hosted at https://portfolio-akshay161099-556d2.web.app/
 
 const App = () =>{
     const [dark,setDark] = useState("false");
     
     return(
+        
         <DarkContext.Provider value={{dark,setDark}}>
         <div>
             <Header/>
             <Outlet/>
         </div>
         </DarkContext.Provider>
+        
     )
 }
 const appRouter = createBrowserRouter([
